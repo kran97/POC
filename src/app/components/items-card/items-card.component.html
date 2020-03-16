@@ -1,0 +1,45 @@
+<section class="width-100 padding-two home-blogs">
+    <div class="container width-100">
+        <div class="row">
+            <div class=" col-md-4 col-sm-4 col-xs-12 card-style blog-listing no-margin-bottom fadeIn xs-margin-bottom-seven text-center animated" >
+                <div (mouseover)="changeState()" (mouseout)="changeState()" class="blog-image">
+                    <a href="http://localhost:4200/ItemsCard">
+                        <img [@changeAnimation]=currentState src="../../../assets/Images/diamond-earrings-003sw-wc-sided.jpg">
+                    </a>
+                </div>
+                <div class="blog-details">
+                    <div class="blog-title bg-mid-grey">
+                        <a href="http://localhost:4200/ItemsCard" class="padding-two white-text">Diamond Earings</a>
+                    </div>
+                    <p>Diamond earring are the perfect gift for any occasion. Shop our collection of diamond studs, hoop earrings, halo earrings, and a range of delicate earrings.</p>
+                </div>
+            </div>
+            <div class=" col-md-4 col-sm-4 col-xs-12 card-style blog-listing no-margin-bottom wow fadeIn xs-margin-bottom-seven text-center animated">
+                <div class="blog-details">
+                    <div class="blog-title bg-mid-grey">
+                        <a href="http://localhost:4200/ItemsCard" class="padding-two white-text">Diamond Pendants</a>
+                    </div>
+                    <p>Pendants add a touch of subtle elegance to any attire, day or night. View our selection of stones in a variety of shapes and colours to suit your taste.</p>
+                </div>
+                <div class="blog-image" (mouseover)="changeState()" (mouseout)="changeState()">
+                    <a href="http://localhost:4200/ItemsCard">
+                    <img [@changeAnimation]=currentState src="../../../assets/Images/damond-pendant-pnd003swback.jpg">
+                </a>
+                </div>
+            </div>
+            <div class=" col-md-4 col-sm-4 col-xs-12 card-style blog-listing no-margin-bottom wow fadeIn xs-margin-bottom-seven text-center animated" >
+                <div class="blog-image" (mouseover)="changeState()" (mouseout)="changeState()">
+                    <a href="http://localhost:4200/ItemsCard">
+                        <img [@changeAnimation]=currentState src="../../../assets/Images/diamond-bracelets-bng001sy-wc-sideb.jpg">
+                    </a>
+                </div>
+                <div class="blog-details">
+                    <div class="blog-title bg-mid-grey">
+                        <a href="http://localhost:4200/ItemsCard" class="padding-two white-text">Diamond Earings</a>
+                    </div>
+                    <p>Bracelets are an ideal keepsake for friends, family, and loved ones. Explore the many styles we have to offer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
